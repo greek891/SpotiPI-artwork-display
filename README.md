@@ -34,7 +34,7 @@ cd spotiPI-artwork-display
 
 2. Create a virtual environment:
 ```bash
-python -m venv .venv
+python3 -m venv .venv
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
@@ -60,7 +60,7 @@ SPOTIFY_REDIRECT_URI=http://localhost:8888/callback
 1. Make sure Spotify is running and playing music
 2. Run the application:
 ```bash
-python main.py
+python3 main.py
 ```
 3. The first time you run it, you'll need to authorize the app in your browser
 4. The artwork window will display your current track's album art
