@@ -1,0 +1,11 @@
+# Spotify API client
+spotipy>=2.22.1
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# HTTP requests for downloading images
+requests>=2.31.0
+
+# Image processing and display
+Pillow>=10.0.0
